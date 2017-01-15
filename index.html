@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Daniel Zheng</title>
+
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/base.css" rel="stylesheet">
+    <script src="js/prograssbar.js"></script>
+   <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script>-->
+  </head>
+  <body>
+    <header>
+        
+        <!--<div class="col-md-1">col-md-1</div>-->
+        <ul class="header">
+          <li><a class="logo" href="#" style="margin-left:7%;">DZ.</a></li>
+          <li><a class="nav_item" href="#contact" style="margin-right:6%;">Contact</a></li>
+          <li><a class="nav_item" href="#project">Project</a></li>
+          <li><a class="nav_item" href="#blog">Blog</a></li>
+          <li><a class="nav_item" href="#article">Article</a></li>
+          <li><a class="nav_item" href="#about">About</a></li>
+        </ul>
+    </header>
+
+    <div class="header_pic">
+      <!--<div class="name">name</div>-->
+      <div class="name">I'm Daniel Zheng</div>
+    </div>
+    <hr>
+    <div class="row" id="about">
+      <h1>About</h1>
+      <br>
+      <h2>Software Developer<h2>
+      <hr>
+      <div class="col-md-6 me"></div>
+      <div class="col-md-6 paragraph">
+        <p id="paragraph">
+        Hi! I'm Daniel, the guy who dreams to be the most romantic programmer in the world.<br><br>
+        Currently, I live in Waterloo ON, still trying to finish my CS banchelor degree. Although I don't have any work exprience before, 
+        but I have equiped some necessary web developping language using my spare time (<b>HTML, CSS, JavaScript, PHP, SQL</b>). 
+        I created this site to expand my horizon and hope to meet more awesome people. Always starving to learn, like Steve said 
+        "Stay Hungry, Stay Foolish". <br><br>
+        There are two things in my life that I can't live without, one is designing, the other is programming. So once I combine 
+        these two, I'm so surprised that I have so much passion everytime I'm creating a project.<br><br>
+        Welcome people who wants to learn and grow 
+        together to <a class="link" href="#contact">contact me</a>!
+        </p>
+        <div class="bar">
+          <p>C++/C - 90%</p>
+          <div class="myProgress c">
+            <div id="bar1"></div>
+          </div>
+          <br>
+          <p>HTML - 90%</p>
+          <div class="myProgress">
+            <div id="bar2"></div>
+          </div>
+          <br>
+          <p>CSS - 90%</p>
+          <div class="myProgress">
+            <div id="bar3"></div>
+          </div>
+          <br>
+            <p>JavaScript - 70%</p>
+          <div class="myProgress">        
+            <div id="bar4"></div>
+          </div>
+          <br>
+          <p>PHP - 70%</p>
+          <div class="myProgress">        
+            <div id="bar5"></div>
+          </div>
+          <br>
+          <p>MySQL - 60%</p>
+          <div class="myProgress">        
+            <div id="bar6"></div>
+            <button onclick="move()">Click Me</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="row specify">
+       <div class="col-md-10 col-md-offset-1 wraper">
+      <hr>
+      <h1>Technical Skills</h1>
+      <br>
+      <h2>Detailed discription<h2>
+      <hr>
+      <div class="col-md-4">
+        <h3>C++</h3>
+        <br>
+        <p>Every programmer starts from C/C++, with no exception for me. 
+          I've been programming in C++ for <b>more than one year</b>, showing decent knowledge in Standard Template Library.
+          I led a three-member group project last December, within the project,
+          we apply most of <b>design pattern</b> (Observer, Visitor, Decorator, Factory Pattern, etc.)
+          we've learned. Personally, I managed to accomplish 'WASD' control and colorful text display with <b>ncurses library</b> involved.
+        </p>
+      </div>
+      <div class="col-md-4 split_left">
+        <h3>HTML/CSS/JavaScript</h3>
+        <br>
+        <p><b>Self-taught<b> all these languages within one study term,
+          Complete more than three self-designed websites. I learned with practice,
+          all websites shows professional skills in handling Animation, Parallax effect and nice clear layout.
+          Each time I started a new web project, I absorbed and grew from previous project.
+          So far, I've equiped with decent knowledge of most <b>mainstream web</b> frameworks (Bootstrap, Comprass, etc). 
+        </p>
+      </div>
+      <div class="col-md-4 split_left">
+        <h3>PHP/SQL</h3>
+        <br>
+        <p>After I obtained solid knowledge in HTML, CSS, JavaScript, SASS, I move on to study the PHP and MySQL.
+          Certainly, I applied these languages in one of my website "MeetUp", although this website hasn't accomplished yet,
+          it already had the ability to <b>store perminent user information</b>.
+        </p>
+      </div>
+      <div class="col-md-7 split_top">
+        <h3>Developping Environment</h3>
+        <br>
+        <div class="col-md-6">
+        <ul>
+          <li>Microsoft Visual Studio </li>
+          <li>Sublime Text</li>
+          <li>XCode</li>
+          <li>Atom</li>
+          <li>Vim</li>
+        </ul>
+        </div>
+        <div class="col-md-6">
+          <ul style="list-style-type: none">
+          <li><img src="img/vs.png"/></li>
+          <li><img src="img/sublime.png"/></li>
+          <li><img src="img/xcode.jpg"/></li>
+          <li><img src="img/atom.png"/></li>
+          <li><img src="img/vim.png"/></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-5 split_left split_top">
+        <h3>Developping Tools</h3>
+        <br>
+        <ul>
+          <li>Git</li>
+          <li>GDB</li>
+        </ul>
+        <hr>
+        <h3>Platforms</h3>
+        <br>
+        <ul>
+          <li>Windows</li>
+          <li>Mac OS</li>
+          <li>Ubuntu</li>
+        </ul>
+      </div>
+    </div>
+    </div class="col-md-1"></div>
+    </div>
+    
+
+    
+    <div class="row" id="article">
+      <hr>
+      <h1>Article</h1>
+      <br>
+      <h2>Resume/Work about projects<h2>
+      <hr>
+      <div class="col-md-2 col-md-offset-2 article">
+        <figure class="effect-sadie">
+	      	<img src="img/splash.jpg" height="250" width="250" alt="splash"/>
+	        <figcaption>
+		      	<h2>My <span>Resume</span></h2>
+		      	<p>2017.1.16 first work term</p>
+		      	<a href="files/resume.pdf">View more</a>
+	      	</figcaption>			
+      	</figure>
+      </div>
+      <div class="col-md-2 article">
+        <figure class="effect-sadie">
+	      	<img src="img/ink.jpg" height="250" width="250" alt="ink"/>
+	        <figcaption>
+		      	<h2>Nice <span>Lily</span></h2>
+		      	<p>Lily likes to play with crayons and pencils</p>
+		      	<a href="#">View more</a>
+	      	</figcaption>			
+      	</figure>
+      </div>
+      <div class="col-md-2 article">
+        <figure class="effect-sadie">
+	      	<img src="img/painting.jpg" height="250" width="250" alt="painting"/>
+	        <figcaption>
+		      	<h2>Nice <span>Lily</span></h2>
+		      	<p>Lily likes to play with crayons and pencils</p>
+		      	<a href="#">View more</a>
+	      	</figcaption>			
+      	</figure>
+      </div>
+      <div class="col-md-2 article">
+        <figure class="effect-sadie">
+	      	<img src="img/bird_pattern.jpg" height="250" width="250" alt="bird_pattern"/>
+	        <figcaption>
+		      	<h2>Nice <span>Lily</span></h2>
+		      	<p>Lily likes to play with crayons and pencils</p>
+		      	<a href="#">View more</a>
+	      	</figcaption>			
+      	</figure>
+      </div>
+    </div>
+
+
+<div class="col-md-10 col-md-offset-1 wraper">
+  
+    <div class="row" id="blog">
+        <hr>
+        <h1>Blogs</h1>
+        <br>
+        <h2>A Brief History of Me<h2>
+        <hr>
+        <div class="col-md-4">
+          <div class="shadow">
+          <img src="img/university.png" alt="cc3k" />
+          <p><b>Enter University</b> 9/7/2015 <br><br>
+          First arrive in Canada, everything goes fine. New room in villege1, a little bit 	small, but better than in China. I start to fall in love with this university, it lies in a quite town, same as me came from a quite town.
+          </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="shadow">
+          <img src="img/co-op.png" alt="cc3k"/>
+        <p style="color: black;"><b>Get in Coop</b> 9/20/2016 <br><br>
+        Today is the day I switch into Coop! I assume that I did a great job in last year. It's time to look futher. What is my interest in CS area? AI, Algorithm, App, or Web? Sooner or later, I'll find an anwser.
+        </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="shadow">
+          <img src="img/varadero.jpg" alt="cc3k" />
+        <p style="color: black;"><b>Trip to Cuba</b> 12/28/2016 <br><br>
+        Just done 2A. After 4 constant study term, I decided to visit Varadero Cuba. Want to give Grand Memories Hotel a big thumbs up, big big open sea, awosome service, legit Cuba music. Promise I'll be back :)
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="blog">
+        <div class="col-md-4">
+          <div class="shadow">
+          <img src="img/niagara.jpg" alt="cc3k"/>
+        <p style="color: black;"><b>Trip to Niagara Fall</b> 4/27/2016 <br><br>
+        First in my life, seeing the most spectacular waterfall ever. I took a ferry, feeling the water splashed into my face. A little bit cold but so much fun. There are many fancy stores and restaurants sorrounding the fall, which make the spot looks like an amusement park.
+        </p>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="shadow">
+          <img src="img/uwhippop.jpg" alt="cc3k"/>
+        <p style="color: black;"><b>Joined UW Hip Pop</b> 1/3/2015 <br><br>
+        It's such a good experience to join the hip pop club. I've had good chance to make more friends. I'm so bad at dancing, but I quite enjoy watching them lol.
+        </p>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="shadow">
+          <img src="img/coding.jpg" alt="cc3k"/>
+        <p style="color: black;"><b>First CS Project</b> 12/21/2016 <br><br>
+        Today I finally complete my frist big CS project with my fellow classmates! So much work and so much joy. I'm actually so proud of myself becoming an actual programmer. By the way, thanks to members Eason, Aaron, it's pleasure to work with you guys, good job!
+        </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="contact">
+        <div class="col-md-6">
+          <hr>
+          <h2>Contact Me</h2>
+          <br>
+          <span>
+          <p>Home Address: 295A Lester St Unit 306A, Waterloo, ON. N2L0C1<br><br>
+            Cell: 6478365882<br><br>
+            UW ID: 20607069
+          </p>
+          </span>
+          <span>
+          <a name="email" href="mailto: s47zheng@uwaterloo.ca"><br> 
+            <p style="text-decoration: underline; font-size: 1em;">Email: s47zheng@uwaterloo.ca</p>
+          </a>
+          </span>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12" style="background:rgba(40,40,40,1); padding: 3px;">
+        <p style="color: white; font-size: 0.8em;">&copy 2017 Daniel Zheng</p>
+      </div>
+    </div>
+
+
+  </body>
+</html>
