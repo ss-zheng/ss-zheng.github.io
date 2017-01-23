@@ -10,36 +10,36 @@
     <!-- Bootstrap -->
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheets/base.css" rel="stylesheet">
-    <script src="js/prograssbar.js"></script>
+    
    <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script>-->
   </head>
   <body>
     <header>
-        
         <!--<div class="col-md-1">col-md-1</div>-->
         <ul class="header">
           <li><a class="logo" href="#" style="margin-left:7%;">DZ.</a></li>
           <li><a class="nav_item" href="#contact" style="margin-right:6%;">Contact</a></li>
-          <li><a class="nav_item" href="#project">Project</a></li>
-          <li><a class="nav_item" href="#blog">Blog</a></li>
-          <li><a class="nav_item" href="#article">Article</a></li>
-          <li><a class="nav_item" href="#about">About</a></li>
+          <li><a class="nav_item" href="#forth">Project</a></li>
+          <li><a class="nav_item" href="#third">Blog</a></li>
+          <li><a class="nav_item" href="#second">Article</a></li>
+          <li><a class="nav_item" href="#first">About</a></li>
         </ul>
     </header>
 
     <div class="header_pic">
-      <!--<div class="name">name</div>-->
-      <div class="name">I'm Daniel Zheng</div>
+      <div class="name" ><p>I'm Daniel Zheng<br>
+      <small>stay hungry stay foolish</small></p></div>
     </div>
-    <hr>
+    
+    <h1 id="first">About<br><small>Software Developer</small></h1>
+
     <div class="row" id="about">
-      <h1>About</h1>
-      <br>
-      <h2>Software Developer<h2>
-      <hr>
-      <div class="col-md-6 me"></div>
+      
+      <div class="col-md-6">
+        <img class="me" src="img/me.jpg" alt="selfie"/>
+      </div>
       <div class="col-md-6 paragraph">
-        <p id="paragraph">
+        <p>
         Hi! I'm Daniel, the guy who dreams to be the most romantic programmer in the world.<br><br>
         Currently, I live in Waterloo ON, still trying to finish my CS banchelor degree. Although I don't have any work exprience before, 
         but I have equiped some necessary web developping language using my spare time (<b>HTML, CSS, JavaScript, PHP, SQL</b>). 
@@ -85,14 +85,11 @@
       </div>
     </div>
 
-   
+    <h1>Technical Skills<br><small>Detailed description</small></h1>
+
+    <div class="container">
     <div class="row specify">
-       <div class="col-md-10 col-md-offset-1 wraper">
-      <hr>
-      <h1>Technical Skills</h1>
-      <br>
-      <h2>Detailed discription<h2>
-      <hr>
+      
       <div class="col-md-4">
         <h3>C++</h3>
         <br>
@@ -110,7 +107,7 @@
           Complete more than three self-designed websites. I learned with practice,
           all websites shows professional skills in handling Animation, Parallax effect and nice clear layout.
           Each time I started a new web project, I absorbed and grew from previous project.
-          So far, I've equiped with decent knowledge of most <b>mainstream web</b> frameworks (Bootstrap, Comprass, etc). 
+          So far, I've equiped with decent knowledge of most <b>mainstream web</b> frameworks (Bootstrap, Compass, etc). 
         </p>
       </div>
       <div class="col-md-4 split_left">
@@ -122,26 +119,30 @@
         </p>
       </div>
       <div class="col-md-7 split_top">
-        <h3>Developping Environment</h3>
+        <h3>Developing Environment</h3>
         <br>
-        <div class="col-md-6">
-        <ul>
-          <li>Microsoft Visual Studio </li>
-          <li>Sublime Text</li>
-          <li>XCode</li>
-          <li>Atom</li>
-          <li>Vim</li>
-        </ul>
-        </div>
-        <div class="col-md-6">
-          <ul style="list-style-type: none">
-          <li><img src="img/vs.png"/></li>
-          <li><img src="img/sublime.png"/></li>
-          <li><img src="img/xcode.jpg"/></li>
-          <li><img src="img/atom.png"/></li>
-          <li><img src="img/vim.png"/></li>
-        </ul>
-        </div>
+        <table>
+          <tr>
+            <td><img src="img/vs.png"/></td>
+            <td style="width: 100px; font-weight: 100; font-family:"Open Sans", sans-serif;">Visual Studio</td>
+          </tr>
+          <tr>
+            <td><img src="img/sublime.png"/></td>
+            <td>Sublime Text</td>
+          </tr>
+          <tr>
+            <td><img src="img/xcode.jpg"/></td>
+            <td>XCode</td>
+          </tr>
+          <tr>
+            <td><img src="img/atom.png"/></td>
+            <td>Atom</td>
+          </tr>
+          <tr>
+            <td><img src="img/vim.png"/></td>
+            <td>Vim</td>
+          </tr>
+        </table>
       </div>
       <div class="col-md-5 split_left split_top">
         <h3>Developping Tools</h3>
@@ -160,73 +161,68 @@
         </ul>
       </div>
     </div>
-    </div class="col-md-1"></div>
-    </div>
-    
 
-    
+    <h1 id="second">Article<br><small>Resume/Work about projects</small></h1>
+
     <div class="row" id="article">
-      <hr>
-      <h1>Article</h1>
-      <br>
-      <h2>Resume/Work about projects<h2>
-      <hr>
-      <div class="col-md-2 col-md-offset-2 article">
-        <figure class="effect-sadie">
-	      	<img src="img/splash.jpg" height="250" width="250" alt="splash"/>
-	        <figcaption>
-		      	<h2>My <span>Resume</span></h2>
-		      	<p>2017.1.16 first work term</p>
-		      	<a href="files/resume.pdf">View more</a>
-	      	</figcaption>			
-      	</figure>
+      
+      <div class="col-md-3 article">
+        <a href="files/Resume.pdf">
+          <figure class="effect-sadie">
+  	      	<img src="img/splash.jpg"  alt="splash"/>
+  	        <figcaption>
+  		      	<h2>My <span>Resume</span></h2>
+  		      	<p>2017.1.16 first work term</p>
+  	      	</figcaption>			
+        	</figure>
+        </a>
       </div>
-      <div class="col-md-2 article">
-        <figure class="effect-sadie">
-	      	<img src="img/ink.jpg" height="250" width="250" alt="ink"/>
-	        <figcaption>
-		      	<h2>Nice <span>Lily</span></h2>
-		      	<p>Lily likes to play with crayons and pencils</p>
-		      	<a href="#">View more</a>
-	      	</figcaption>			
-      	</figure>
+      <div class="col-md-3 article">
+        <a href="files/cc3k_report.pdf">
+          <figure class="effect-sadie">
+  	      	<img src="img/ink.jpg"  alt="ink"/>
+  	        <figcaption>
+  		      	<h2>Chamber Crawler<span>Report</span></h2>
+  		      	<p>First group project report</p>
+  		      	
+  	      	</figcaption>			
+        	</figure>
+        </a>
       </div>
-      <div class="col-md-2 article">
-        <figure class="effect-sadie">
-	      	<img src="img/painting.jpg" height="250" width="250" alt="painting"/>
-	        <figcaption>
-		      	<h2>Nice <span>Lily</span></h2>
-		      	<p>Lily likes to play with crayons and pencils</p>
-		      	<a href="#">View more</a>
-	      	</figcaption>			
-      	</figure>
+      <div class="col-md-3 article">
+        <a href="#">
+          <figure class="effect-sadie">
+  	      	<img src="img/painting.jpg"  alt="painting"/>
+  	        <figcaption>
+  		      	<h2>Empty <span></span></h2>
+  		      	<p>...</p>
+  	      	</figcaption>			
+        	</figure>
+        </a>
       </div>
-      <div class="col-md-2 article">
-        <figure class="effect-sadie">
-	      	<img src="img/bird_pattern.jpg" height="250" width="250" alt="bird_pattern"/>
-	        <figcaption>
-		      	<h2>Nice <span>Lily</span></h2>
-		      	<p>Lily likes to play with crayons and pencils</p>
-		      	<a href="#">View more</a>
-	      	</figcaption>			
-      	</figure>
+      <div class="col-md-3 article">
+        <a href="#">
+          <figure class="effect-sadie">
+            <img src="img/bird_pattern.jpg" alt="bird_pattern"/>
+            <figcaption>
+              <h2>Empty <span></span></h2>
+              <p>...</p>
+            
+            </figcaption>			
+          </figure>
+       </a>
       </div>
     </div>
 
+        <h1 id="third">Blogs<br><small>A Brief History of Me</small></h1>
 
-<div class="col-md-10 col-md-offset-1 wraper">
-  
-    <div class="row" id="blog">
-        <hr>
-        <h1>Blogs</h1>
-        <br>
-        <h2>A Brief History of Me<h2>
-        <hr>
+    <div class="row blog">
+        
         <div class="col-md-4">
           <div class="shadow">
           <img src="img/university.png" alt="cc3k" />
           <p><b>Enter University</b> 9/7/2015 <br><br>
-          First arrive in Canada, everything goes fine. New room in villege1, a little bit 	small, but better than in China. I start to fall in love with this university, it lies in a quite town, same as me came from a quite town.
+          First arrive in Canada, everything goes fine. New room in village1, a little bit 	small, but better than in China. I start to fall in love with this university, it lies in a quite town, same as me came from a quite town.
           </p>
           </div>
         </div>
@@ -248,7 +244,7 @@
       </div>
     </div>
 
-    <div class="row" id="blog">
+    <div class="row blog">
         <div class="col-md-4">
           <div class="shadow">
           <img src="img/niagara.jpg" alt="cc3k"/>
@@ -274,8 +270,59 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="row" id="contact">
+    <h1 id="forth">Project<br><small>Personal/Group Projects</small></h1>
+
+    <div class="row project">
+      <div class="col-md-6 nopadding">
+        <img class="img" src="img/cc3k.jpg" alt="selfie"/>
+      </div>
+      <div class="col-md-6 nopadding paragraph">
+          <p style="left: 650px; width: 600px"><b>ChamberCrawler3000</b> 11/20/2016 - 12/5/2016<br><br>
+            Group Project <br><br>
+            Basic language: c++<br><br>
+            Intro: A simplified rogue-like video game, player need to reach 5<sub>th</sub> floor to win the game. The more enemies player slained, the much gold player gains, the higher the score is. (You need ncurse libary to run the game).
+          </p>
+          <a class="download button" href="files/cc3k" download>Download</a>
+          <a class="git button" href="https://github.com/ss-zheng/ChamberCrawler3000">Github</a>
+      </div>
+    </div>
+    <div class="row project">
+      <div class="col-md-6 nopadding paragraph">
+        <p style="color: black; left: 200px; width:600px"><b>MeetUp</b> 12/21/2016 - present<br><br>
+          Personal Project <br><br>
+          Basic language: HTML, CSS, JavaScript, PHP, SQL<br><br>
+          Intro: A web that help people meet up at school, people can look up their friends' schedule to decide when to meet up with them. This web also benefits the group meeting for it can search for time when all group members are free.
+        </p>
+
+        <a class="download button" href="https://meetup2017.000webhostapp.com">Link</a>
+        <a class="git button" href="https://github.com/ss-zheng/MeetUp">Github</a>
+      </div>
+      <div class="col-md-6 nopadding">
+        <img class="img" src="img/meetup.jpg" alt="selfie"/>
+      </div>
+    </div>
+    <div class="row project">
+      
+      <div class="col-md-6 nopadding">
+        <img class="img" src="img/per_web.jpg" alt="selfie"/>
+      </div>
+      <div class="col-md-6 nopadding paragraph">
+        <p style="left: 690px; width: 600px"><b>Personal Web</b> 12/21/2016 - 12/30/2016<br><br>
+          Personal Project <br><br>
+          Basic language: HTML, CSS, JavaScript<br><br>
+          Intro: A personal web that provides some personal information, a practice of web development.
+        </p>
+
+        <a class="download button" href="#">Link</a>
+        <a class="git button"  href="https://github.com/ss-zheng/Personal-Web">Github</a>
+      </div>
+    </div>
+    
+
+  <div class="container">
+      <div class="row" id="contact" style="margin-top: 100px">
         <div class="col-md-6">
           <hr>
           <h2>Contact Me</h2>
@@ -292,16 +339,23 @@
           </a>
           </span>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+
+
+
+        </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12" style="background:rgba(40,40,40,1); padding: 3px;">
-        <p style="color: white; font-size: 0.8em;">&copy 2017 Daniel Zheng</p>
+        <p style="color: white; font-size: 0.8em;">&copy; 2017 Daniel Zheng</p>
       </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/animation.js"></script>
 
   </body>
 </html>

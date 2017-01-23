@@ -73,54 +73,49 @@ header {
  .header_pic {
   position: relative;
   height: 840px;
-  background-image: url(../img/placeholder.jpg);
+  background-image: url(../img/city1.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: top center;
   text-align: center;
   .name {
     position: relative;
-    font-size: 3em;
-    font-weight: 10;
     top: 45%;
-    
-   // position: absolute;
-   // left: 40%;
+    p{
+       color: white;
+       font-size: 3em;
+       small{
+         font-size: 0.5em;
+       }
+    }
   }
 }
 
 h1 {
   font-size: 3em;
+  text-align: center;
+  border-top: solid rgba(200,200,200,0.5)  1px;
+  border-bottom: solid rgba(200,200,200,0.5) 1px;
+  padding: 10px 0px;
+  margin: 30px 0px;
+  small {
+    font-size: 0.5em;
+    font-weight: 100;
+  }
 }
 
 #about {
-  height: 800px;
- // background: rgba(64,64,64,0.6);
-  .col-md-6 {
-    margin:0px;
-    padding:0;
-    background-size: contain;
-  }
+  background: white;
   .me {
-      height: 650px;
-     // width: 650px;
-     // margin-right: -100px;
-      background: url(../img/me.jpg) no-repeat;
-      background-size: contain;
-      z-index: 2;
+      width: 100%;
+      display: block;
+    //  z-index: 2;
   }
   .paragraph{
-    
-    //position: relative;
-   //padding: 60px, 100px, 60px, 0px;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 60px;
-    height: 650px;
-   // background: white;
-    @include epic-sides() {background: white}
-    
-  //  text-align: center;
+   // height: 650px;
     p{
       text-align: left;
       //color: ;
@@ -157,22 +152,26 @@ h1 {
 }
 
 .specify {
-  height: 500px;
   .col-md-5,
   .col-md-7,
   .col-md-4 {
-    height: 300px;
+    height: 350px;
     padding: 50px 60px;
     background: white;
   }
-  ul {
+  table {
     margin-left: 100px;
     text-align: left;
-    list-style-type: circle;
+    td {
+      width: 90px;
+    }
+    //list-style-type: circle;
+    
     img {
       width: 20px;
       height: 20px;
       border-radius: 2px;
+      display: block;
     }
   }
   .split_left {
@@ -190,16 +189,18 @@ h1 {
 }
 
 #article {
-  .col-md-2 {
-    padding:0;
-    height: 250px;
+  .article {
     overflow: hidden;
     border: white solid 5px;
+    padding:0;
+    //width: -60px;
   }
   figure.effect-sadie {
     img {
 		//	display: block;
 			//height: auto;
+      //height: 20px;
+      width: inherit;
 			-webkit-transition: all 300ms;
 			-moz-transition: all 300ms;
 			transition: all 300ms;
@@ -261,52 +262,17 @@ h1 {
   }
 }
 
-.specify {
-  height: 760px;
-  .col-md-5,
-  .col-md-7,
-  .col-md-4 {
-    height: 300px;
-    padding: 50px 60px;
-    background: white;
-  }
-  ul {
-    margin-left: 100px;
-    text-align: left;
-    list-style-type: circle;
-    img {
-      width: 20px;
-      height: 20px;
-      border-radius: 2px;
-    }
-  }
-  .split_left {
-    border-left: rgba(242,245,245,1) solid 3px;
-  }
-  .split_top {
-    border-top: rgba(242,245,245,1) solid 3px;
-  }
-  p {
-    text-align: left;
-    &:first-letter{
-      font-size: 1.3em;
-    }
-  }
-}
 
-#blog {
-  height: 700px;
+
+.blog {
   .col-md-4 {
     position: relative;
-    height: min-content;
+   
     padding: 14px;
     overflow: hidden;
   }
   .shadow{
-   //border: solid black 2px;
       position: relative;
-      width: min-content;
-     // display: inline-block;
       background-color: #fff;
       //border-radius: 5px;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -349,6 +315,60 @@ h1 {
     
   }
 }
+
+.nopadding {
+  padding: 0;
+}
+ a.download {
+  background-color: green;
+}
+
+a.git {
+  background-color: purple;
+}
+
+.button {
+  float: left;
+  width: 90px;
+  border-radius: 5px;
+  margin:10px;
+  padding:6px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  max-width: 100%;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+  -webkit-transform: scaleX(1.1);
+  -moz-transform: scaleX(1.1);
+  transform: scaleX(1.1);
+}
+
+.project {
+
+  background: white;
+  .img {
+      width: 100%;
+      display: block;
+    //  z-index: 2;
+  }
+  .paragraph{
+    padding: 100px 60px;
+    p{
+      text-align: left;
+      //color: ;
+      margin: 10px;
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 
 
 #contact {
