@@ -152,10 +152,11 @@ h1 {
 }
 
 .specify {
+  background: white;
   .col-md-5,
   .col-md-7,
   .col-md-4 {
-    height: 350px;
+    //height: 350px;
     padding: 50px 60px;
     background: white;
   }
@@ -163,7 +164,9 @@ h1 {
     margin-left: 100px;
     text-align: left;
     td {
-      width: 90px;
+      width: 100px; 
+      font-weight: 100; 
+      font-family:"Open Sans", sans-serif;
     }
     //list-style-type: circle;
     

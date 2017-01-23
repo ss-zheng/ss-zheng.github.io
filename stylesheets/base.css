@@ -214,54 +214,59 @@ h1 small {
   background-color: #6464ff;
 }
 
-/* line 155, ../sass/base.scss */
+/* line 154, ../sass/base.scss */
+.specify {
+  background: white;
+}
+/* line 156, ../sass/base.scss */
 .specify .col-md-5,
 .specify .col-md-7,
 .specify .col-md-4 {
-  height: 350px;
   padding: 50px 60px;
   background: white;
 }
-/* line 162, ../sass/base.scss */
+/* line 163, ../sass/base.scss */
 .specify table {
   margin-left: 100px;
   text-align: left;
 }
-/* line 165, ../sass/base.scss */
+/* line 166, ../sass/base.scss */
 .specify table td {
-  width: 90px;
+  width: 100px;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
 }
-/* line 170, ../sass/base.scss */
+/* line 173, ../sass/base.scss */
 .specify table img {
   width: 20px;
   height: 20px;
   border-radius: 2px;
   display: block;
 }
-/* line 177, ../sass/base.scss */
+/* line 180, ../sass/base.scss */
 .specify .split_left {
   border-left: #f2f5f5 solid 3px;
 }
-/* line 180, ../sass/base.scss */
+/* line 183, ../sass/base.scss */
 .specify .split_top {
   border-top: #f2f5f5 solid 3px;
 }
-/* line 183, ../sass/base.scss */
+/* line 186, ../sass/base.scss */
 .specify p {
   text-align: left;
 }
-/* line 185, ../sass/base.scss */
+/* line 188, ../sass/base.scss */
 .specify p:first-letter {
   font-size: 1.3em;
 }
 
-/* line 192, ../sass/base.scss */
+/* line 195, ../sass/base.scss */
 #article .article {
   overflow: hidden;
   border: white solid 5px;
   padding: 0;
 }
-/* line 199, ../sass/base.scss */
+/* line 202, ../sass/base.scss */
 #article figure.effect-sadie img {
   width: inherit;
   -webkit-transition: all 300ms;
@@ -269,7 +274,7 @@ h1 small {
   transition: all 300ms;
   max-width: 100%;
 }
-/* line 209, ../sass/base.scss */
+/* line 212, ../sass/base.scss */
 #article figure.effect-sadie h2 {
   font-size: 2em;
   position: absolute;
@@ -280,7 +285,7 @@ h1 small {
   transition: transform 0.35s, color 0.35s;
   transform: translate3d(0, -50%, 0);
 }
-/* line 219, ../sass/base.scss */
+/* line 222, ../sass/base.scss */
 #article figure.effect-sadie p {
   color: rgba(250, 250, 250, 0.9);
   position: absolute;
@@ -291,7 +296,7 @@ h1 small {
   opacity: 0;
   transform: translate3d(0, 10px, 0);
 }
-/* line 229, ../sass/base.scss */
+/* line 232, ../sass/base.scss */
 #article figure.effect-sadie figcaption::before {
   position: absolute;
   top: 0;
@@ -303,36 +308,36 @@ h1 small {
   opacity: 0;
   transform: translate3d(0, 50%, 0);
 }
-/* line 242, ../sass/base.scss */
+/* line 245, ../sass/base.scss */
 #article figure.effect-sadie figcaption::before,
 #article figure.effect-sadie p {
   transition: opacity 0.35s, transform 0.35s;
 }
-/* line 248, ../sass/base.scss */
+/* line 251, ../sass/base.scss */
 #article figure.effect-sadie:hover img {
   -webkit-transform: scale(1.4);
   -moz-transform: scale(1.4);
   transform: scale(1.4);
 }
-/* line 253, ../sass/base.scss */
+/* line 256, ../sass/base.scss */
 #article figure.effect-sadie:hover h2 {
   color: #fff;
   transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
 }
-/* line 257, ../sass/base.scss */
+/* line 260, ../sass/base.scss */
 #article figure.effect-sadie:hover figcaption::before,
 #article figure.effect-sadie:hover p {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
-/* line 268, ../sass/base.scss */
+/* line 271, ../sass/base.scss */
 .blog .col-md-4 {
   position: relative;
   padding: 14px;
   overflow: hidden;
 }
-/* line 274, ../sass/base.scss */
+/* line 277, ../sass/base.scss */
 .blog .shadow {
   position: relative;
   background-color: #fff;
@@ -340,7 +345,7 @@ h1 small {
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-/* line 282, ../sass/base.scss */
+/* line 285, ../sass/base.scss */
 .blog .shadow::after {
   content: "";
   position: absolute;
@@ -354,46 +359,46 @@ h1 small {
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-/* line 297, ../sass/base.scss */
+/* line 300, ../sass/base.scss */
 .blog .shadow:hover {
   -webkit-transform: scale(1.02, 1.02);
   transform: scale(1.02, 1.02);
 }
-/* line 300, ../sass/base.scss */
+/* line 303, ../sass/base.scss */
 .blog .shadow:hover::after {
   opacity: 1;
 }
-/* line 304, ../sass/base.scss */
+/* line 307, ../sass/base.scss */
 .blog img {
   width: 100%;
 }
-/* line 307, ../sass/base.scss */
+/* line 310, ../sass/base.scss */
 .blog p {
   padding: 50px 30px;
   text-align: left;
   background: white;
 }
-/* line 312, ../sass/base.scss */
+/* line 315, ../sass/base.scss */
 .blog p:first-line {
   font-size: 1.3em;
 }
 
-/* line 319, ../sass/base.scss */
+/* line 322, ../sass/base.scss */
 .nopadding {
   padding: 0;
 }
 
-/* line 322, ../sass/base.scss */
+/* line 325, ../sass/base.scss */
 a.download {
   background-color: green;
 }
 
-/* line 326, ../sass/base.scss */
+/* line 329, ../sass/base.scss */
 a.git {
   background-color: purple;
 }
 
-/* line 330, ../sass/base.scss */
+/* line 333, ../sass/base.scss */
 .button {
   float: left;
   width: 90px;
@@ -406,7 +411,7 @@ a.git {
   max-width: 100%;
 }
 
-/* line 342, ../sass/base.scss */
+/* line 345, ../sass/base.scss */
 .button:hover {
   color: white;
   text-decoration: none;
@@ -415,31 +420,31 @@ a.git {
   transform: scaleX(1.1);
 }
 
-/* line 350, ../sass/base.scss */
+/* line 353, ../sass/base.scss */
 .project {
   background: white;
 }
-/* line 353, ../sass/base.scss */
+/* line 356, ../sass/base.scss */
 .project .img {
   width: 100%;
   display: block;
 }
-/* line 358, ../sass/base.scss */
+/* line 361, ../sass/base.scss */
 .project .paragraph {
   padding: 100px 60px;
 }
-/* line 360, ../sass/base.scss */
+/* line 363, ../sass/base.scss */
 .project .paragraph p {
   text-align: left;
   margin: 10px;
 }
-/* line 364, ../sass/base.scss */
+/* line 367, ../sass/base.scss */
 .project .paragraph p a {
   color: black;
   text-decoration: underline;
 }
 
-/* line 374, ../sass/base.scss */
+/* line 377, ../sass/base.scss */
 #contact {
   padding: 50px 0px;
   margin: 0;
@@ -458,22 +463,22 @@ a.git {
   z-index: -1;
   background: rgba(40, 40, 40, 0.8);
 }
-/* line 378, ../sass/base.scss */
+/* line 381, ../sass/base.scss */
 #contact .col-md-6 {
   text-align: left;
   color: white;
 }
-/* line 382, ../sass/base.scss */
+/* line 385, ../sass/base.scss */
 #contact a:hover {
   color: white;
 }
 
-/* line 388, ../sass/base.scss */
+/* line 391, ../sass/base.scss */
 footer {
   bottom: 0;
   font-size: 0.8em;
 }
-/* line 396, ../sass/base.scss */
+/* line 399, ../sass/base.scss */
 footer p {
   text-align: center;
 }
