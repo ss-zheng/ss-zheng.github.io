@@ -17,7 +17,7 @@
     <header>
         <!--<div class="col-md-1">col-md-1</div>-->
         <ul class="header">
-          <li><a class="logo" href="#" style="margin-left:7%;">DZ.</a></li>
+          <li><a class="logo" href="#top" style="margin-left:7%;">DZ.</a></li>
           <li><a class="nav_item" href="#contact" style="margin-right:6%;">Contact</a></li>
           <li><a class="nav_item" href="#forth">Project</a></li>
           <li><a class="nav_item" href="#third">Blog</a></li>
@@ -26,7 +26,7 @@
         </ul>
     </header>
 
-    <div class="header_pic">
+    <div class="header_pic" id="top">
       <div class="name" ><p>I'm Daniel Zheng<br>
       <small>stay hungry stay foolish</small></p></div>
     </div>
@@ -39,6 +39,7 @@
         <img class="me" src="img/me.jpg" alt="selfie"/>
       </div>
       <div class="col-md-6 paragraph">
+        <div class="content">
         <p>
         Hi! I'm Daniel, the guy who dreams to be the most romantic programmer in the world.<br><br>
         Currently, I live in Waterloo ON, still trying to finish my CS banchelor degree. Although I don't have any work exprience before, 
@@ -79,13 +80,13 @@
           <p>MySQL - 60%</p>
           <div class="myProgress">        
             <div id="bar6"></div>
-            <button onclick="move()">Click Me</button> 
           </div>
+        </div>
         </div>
       </div>
     </div>
 
-    <h1>Technical Skills<br><small>Detailed description</small></h1>
+    <h1 id="skills">Technical Skills<br><small>Detailed description</small></h1>
 
     <div class="container">
     <div class="row specify">
@@ -285,25 +286,30 @@
         <img class="img" src="img/cc3k.jpg" alt="selfie"/>
       </div>
       <div class="col-md-6 nopadding paragraph">
-          <p style="left: 650px; width: 600px"><b>ChamberCrawler3000</b> 11/20/2016 - 12/5/2016<br><br>
-            Group Project <br><br>
+        <div class="content">
+          <h3 id="cc3k">ChamberCrawler3000<br>
+          <small> 11/20/2016 - 12/5/2016</small></h3>
+          <p>Group Project <br><br>
             Basic language: c++<br><br>
             Intro: A simplified rogue-like video game, player need to reach 5<sub>th</sub> floor to win the game. The more enemies player slained, the much gold player gains, the higher the score is. (You need ncurse libary to run the game).
           </p>
           <a class="download button" href="files/cc3k" download>Download</a>
           <a class="git button" href="https://github.com/ss-zheng/ChamberCrawler3000">Github</a>
-      </div>
+        </div>
+   </div>
     </div>
     <div class="row project">
       <div class="col-md-6 nopadding paragraph">
-        <p style="color: black; left: 200px; width:600px"><b>MeetUp</b> 12/21/2016 - present<br><br>
-          Personal Project <br><br>
+         <div class="content">
+        <h3 id="meetup">MeetUp<br><small> 12/21/2016 - present</small></h3>
+        <p>Personal Project <br><br>
           Basic language: HTML, CSS, JavaScript, PHP, SQL<br><br>
           Intro: A web that help people meet up at school, people can look up their friends' schedule to decide when to meet up with them. This web also benefits the group meeting for it can search for time when all group members are free.
         </p>
 
         <a class="download button" href="https://meetup2017.000webhostapp.com">Link</a>
         <a class="git button" href="https://github.com/ss-zheng/MeetUp">Github</a>
+      </div>
       </div>
       <div class="col-md-6 nopadding">
         <img class="img" src="img/meetup.jpg" alt="selfie"/>
@@ -315,8 +321,9 @@
         <img class="img" src="img/per_web.jpg" alt="selfie"/>
       </div>
       <div class="col-md-6 nopadding paragraph">
-        <p style="left: 690px; width: 600px"><b>Personal Web</b> 12/21/2016 - 12/30/2016<br><br>
-          Personal Project <br><br>
+        <div class="content">
+        <h3 id="personal_web">Personal Web<br><small> 12/21/2016 - 12/30/2016</small></h3>
+        <p>Personal Project <br><br>
           Basic language: HTML, CSS, JavaScript<br><br>
           Intro: A personal web that provides some personal information, a practice of web development.
         </p>
@@ -324,6 +331,7 @@
         <a class="download button" href="#">Link</a>
         <a class="git button"  href="https://github.com/ss-zheng/Personal-Web">Github</a>
       </div>
+    </div>
     </div>
     
 
@@ -360,7 +368,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="js/jquery.smooth-scroll.js"></script>
+    <!--<script src="js/jquery.smooth-scroll.js"></script>-->
     <script src="js/animation.js"></script>
 
   </body>
