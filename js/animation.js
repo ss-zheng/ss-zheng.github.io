@@ -32,7 +32,7 @@ $(document).ready(function() {
         var scrollvalue= $(this).scrollTop();
 
         $('.name').css({
-           'transform' : 'translate(0px, '+ scrollvalue /2 +'%)'
+           'transform' : 'translate(0px, '+ scrollvalue /4 +'%)'
         });
 
         
