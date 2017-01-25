@@ -65,7 +65,7 @@ $(document).ready(function() {
 
 
 
-    $('a').click(function(e) {
+    $('header a').click(function(e) {
     e.preventDefault();
     var linkHref= $(this).attr('href');
     var headerHeight= $('header').outerHeight();

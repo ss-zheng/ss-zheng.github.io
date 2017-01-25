@@ -424,7 +424,7 @@ a.git {
 /* line 353, ../sass/base.scss */
 .button {
   float: left;
-  width: 90px;
+  min-width: 90px;
   border-radius: 5px;
   margin: 10px;
   padding: 6px;
